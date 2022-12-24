@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 10px;
+	font-family: 'poppins',sans-serif;
+
+}
+.hero{
+	background-color:black;
+	min-height: 100%;
+	width: 1300px;
+	height: 1000px;
+	color: #ffff;
+	position: relative;
+
+}
+nav{
+	display: flex;
+	align-items: center;
+	padding: 20px 8%;
+}
+nav.menu-imag{
+	width: 10px;
+	height: 10px;
+	margin-right:10px;
+	cursor: pointer;
+}
+nav ul{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+button{
+background:  #efefef;
+height: 40px;
+width: 60px;
+border-radius:200px;
+border: 0;
+outline: 0;
+cursor: pointer;
+}
+button span{
+	display: block;
+	background: #999;
+	height: 10px;
+	width: 11px;
+	border-radius: 45%;
+margin-left:20px;
+
+;
+
+}
